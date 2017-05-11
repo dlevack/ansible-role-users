@@ -35,9 +35,33 @@ Example Host file
 Example Playbook
 ----------------
 
+Deploy users to Database servers:
+
     - hosts: Database
       roles:
          - dlevack.users
+
+Deploy users to Mail servers:
+
+    - hosts: Mail
+      roles:
+         - dlevack.users
+
+Deploy users to Database and Mail servers:
+
+    - hosts: Database
+      roles:
+         - dlevack.users
+    - hosts: Mail
+      roles:
+         - dlevack.users
+
+Deploy users to all servers:
+
+    - hosts: all
+      roles:
+         - dlevack.users
+
 
 Dependencies
 ------------
