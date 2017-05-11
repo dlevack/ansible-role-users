@@ -11,6 +11,7 @@ This role requires Ansible 1.4 or higher, and platform requirements are listed i
 Role Variables
 --------------
 
+    ---
     users:
       testuser1:
         name: Test User1
