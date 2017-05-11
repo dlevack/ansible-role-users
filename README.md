@@ -20,11 +20,6 @@ Role Variables
         shell: /bin/bash
         groups: admins, developers
 
-Dependencies
-------------
-
-None
-
 Example Host file
 -----------------
 
@@ -43,6 +38,11 @@ Example Playbook
     - hosts: Database
       roles:
          - dlevack.users
+
+Dependencies
+------------
+
+None
 
 License
 -------
