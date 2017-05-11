@@ -16,8 +16,8 @@ Role Variables
       testuser1:
         name: Test User1
         uid: 1001
-        password: $1$4k.ggzUl$jPToyRQXJguRntgRN/Z6H1
-        sshkey: ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA2LTRhIlEQuibfGA2KVHaLoN6AKZcx38Gvw415Ge14YD+gFHogwc4a8eO4Gpg4eSB5WyHrD6Lr/b1GbgQKfwIIewdjvfxbm6CH/oJoWZ2VnXABg+nuLZRICt4mV/Gz9ZvbLRyFsDCSiNtqPUa5LQyGJeIJ3I0/dEv3E7V5IU6rJhUN6wXLmbZtUlpjzje99Tjab17m4ZWkgveSr89euhmZ9auoLjokG8ITqizMbk3pqR3ZvCVsquCdb//Ke5qxvVUaiicpTeFCjpYdfsoDeCVhoFm5mx2j9YhNng49/oPBL46eJBkY5xuj0UGTxqnc+EzTKi/kqdc/4qakcM6hxPzqQ== user@host
+        password: $1$b6BVxWF5$fMapNlhZ/aiPa/VzbARXI.
+        sshkey: ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxcNZk1CYAx52RrOOeWTJMplUCTNcAlnvt14STfpUdzAiuBy/a6axgY6AC9nh9C5mz6js8DmCjuv74u98huwrj3D3xCvNoG9BiBXxKDSBW5VHWbbpERz3AcM2lRK9KnP7qDK670Hln5NG5fsC2siMEm50EueZQP2YiWd+qNp6dvQI3KCMD97skX2zwc5+dZct5d3UywqJv17Pv4DUNpDmFlXiNHg3NiCpOcnr9JU2Hn5uHL30zjIeeWNeYtbv/+FmVOn4RgoHZzjhXyTrWRBEEkuPWoq75BkopShSnqDyJGycnMtUxNNdPB6Tyib5xNlxS81XlDR2kXVZZXpS8aojZQ== user@host
         shell: /bin/bash
         groups: admins, developers
 
