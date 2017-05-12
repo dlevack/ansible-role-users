@@ -73,7 +73,7 @@ None
 License
 -------
 
-BSD
+BSD-2-Clause
 
 Author Information
 ------------------
